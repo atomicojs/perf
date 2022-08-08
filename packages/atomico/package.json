@@ -5,7 +5,7 @@
     "private": true,
     "scripts": {
         "dev": "exports src/* --exports --analyzer --types --watch",
-        "build": "exports src/* --bundle --minify --dist browser"
+        "build": "exports src/* --bundle --minify"
     },
     "dependencies": {
         "atomico": "latest"

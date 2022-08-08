@@ -2,7 +2,6 @@ import { c, useProp, css } from "atomico";
 
 function counter() {
     let [count, setCount] = useProp("count");
-
     return (
         <host shadowDom>
             <button onclick={() => setCount(count - 1)}>-</button>
@@ -11,6 +10,8 @@ function counter() {
         </host>
     );
 }
+
+counter.props = { count: { type: Number, value: 0 } };
 
 counter.styles = css`
     * {
