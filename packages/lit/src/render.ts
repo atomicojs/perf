@@ -1,6 +1,6 @@
 import { Counter } from "./counter";
 
-let length = 50;
+let length = 1000;
 
 while (length--) {
     const counter = new Counter();
