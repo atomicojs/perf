@@ -15,7 +15,7 @@
     "scripts": {
         "build": "npm run build --workspaces",
         "create": "scaff templates/component packages",
-        "perf": "tachometer packages/atomico packages/lit packages/preact packages/react --json-file"
+        "perf": "tach --config tachometer.json --json-file results.json"
     },
     "devDependencies": {
         "@atomico/exports": "^0.36.0",

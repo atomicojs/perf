@@ -1,0 +1,37 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Polymer/tachometer/master/config.schema.json",
+    "benchmarks": [
+        {
+            "name": "atomico",
+            "url": "packages/atomico/index.html",
+            "browser": {
+                "name": "chrome",
+                "headless": true
+            }
+        },
+        {
+            "name": "lit",
+            "url": "packages/lit/index.html",
+            "browser": {
+                "name": "chrome",
+                "headless": true
+            }
+        },
+        {
+            "name": "preact",
+            "url": "packages/preact/index.html",
+            "browser": {
+                "name": "chrome",
+                "headless": true
+            }
+        },
+        {
+            "name": "react",
+            "url": "packages/react/index.html",
+            "browser": {
+                "name": "chrome",
+                "headless": true
+            }
+        }
+    ]
+}
