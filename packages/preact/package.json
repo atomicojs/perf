@@ -1,0 +1,17 @@
+{
+    "name": "@component/preact",
+    "type": "module",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "exports src/* --exports --analyzer --types --watch",
+        "build": "exports src/* --bundle"
+    },
+    "dependencies": {
+        "preact": "latest",
+        "preact-custom-element": "latest"
+    },
+    "devDependencies": {
+        "@atomico/tsconfig": "1.0.0"
+    }
+}

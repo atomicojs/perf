@@ -1,0 +1,16 @@
+{
+    "name": "@component/atomico",
+    "type": "module",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "exports src/* --exports --analyzer --types --watch",
+        "build": "exports src/* --bundle --minify --dist browser"
+    },
+    "dependencies": {
+        "atomico": "latest"
+    },
+    "devDependencies": {
+        "@atomico/tsconfig": "1.0.0"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "@component/lit",
+    "type": "module",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "exports src/* --exports --analyzer --types --watch",
+        "build": "exports src/* --bundle --minify"
+    },
+    "dependencies": {
+        "lit": "latest"
+    }
+}

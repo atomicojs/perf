@@ -1,0 +1,39 @@
+{
+    "name": "@atomico/monorepo",
+    "version": "0.0.0",
+    "meta": {
+        "title": "Monorepo - Atomico + Vite(JS,JSX,TS,TSX)",
+        "description": "Hassle-free starter template, perfect for getting started with Monorepo + Atomico + Vite",
+        "branch": "https://github.com/atomicojs/atomico/tree/3-monorepo/"
+    },
+    "private": true,
+    "type": "module",
+    "workspaces": [
+        "app",
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "npm run build --workspaces",
+        "create": "scaff templates/component packages",
+        "perf": "tachometer packages/atomico packages/lit packages/preact packages/react --json-file"
+    },
+    "devDependencies": {
+        "@atomico/exports": "^0.36.0",
+        "@atomico/scaffold": "latest",
+        "typescript": "latest"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": false
+    },
+    "dependencies": {
+        "tachometer": "^0.7.0",
+        "atomico": "latest",
+        "lit": "latest",
+        "preact": "latest",
+        "preact-custom-element": "latest",
+        "react": "^18",
+        "react-dom": "^18",
+        "react-to-webcomponent": "^1"
+    }
+}
