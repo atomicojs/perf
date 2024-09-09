@@ -8,7 +8,7 @@
         "build": "exports src/* --bundle --minify"
     },
     "dependencies": {
-        "atomico": "latest"
+        "atomico": "^1.79.2"
     },
     "devDependencies": {
         "@atomico/tsconfig": "1.0.0"

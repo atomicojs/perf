@@ -8,6 +8,6 @@
         "build": "exports src/* --bundle --minify"
     },
     "dependencies": {
-        "lit": "latest"
+        "lit": "^3.2.0"
     }
 }

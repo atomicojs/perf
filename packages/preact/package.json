@@ -8,8 +8,8 @@
         "build": "exports src/* --bundle"
     },
     "dependencies": {
-        "preact": "latest",
-        "preact-custom-element": "latest"
+        "preact": "^10.23.2",
+        "preact-custom-element": "^4.3.0"
     },
     "devDependencies": {
         "@atomico/tsconfig": "1.0.0"
