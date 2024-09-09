@@ -9,7 +9,6 @@ package-lock.json
 coverage
 
 # dist
-dist
 types
 
 # debug
