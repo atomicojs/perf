@@ -27,13 +27,13 @@
         "singleQuote": false
     },
     "dependencies": {
-        "tachometer": "^0.7.0",
         "atomico": "latest",
         "lit": "latest",
         "preact": "latest",
         "preact-custom-element": "latest",
         "react": "^18",
         "react-dom": "^18",
-        "react-to-webcomponent": "^1"
+        "react-to-webcomponent": "^1",
+        "tachometer": "^0.7.1"
     }
 }
